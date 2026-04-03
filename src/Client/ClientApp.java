@@ -33,7 +33,7 @@ public class ClientApp extends Application {
             }
         });
 
-        stage.setTitle("Instagram - Đăng nhập");
+        stage.setTitle("ChatBox- Đăng nhập");
         stage.setScene(scene);
         stage.show();
     }
@@ -108,7 +108,7 @@ public class ClientApp extends Application {
         });
 
         stage.setScene(chatScene);
-        stage.setTitle("Instagram - " + username);
+        stage.setTitle("ChatBox - " + username);
         stage.centerOnScreen();
     }
 
